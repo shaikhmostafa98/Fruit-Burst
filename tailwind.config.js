@@ -10,3 +10,6 @@ module.exports = {
   },
   plugins: [],
 };
+
+// Code Link: https://github.com/shaikhmostafa98/Fruit-Burst
+// Live Link: https://shaikhmostafa98.github.io/Fruit-Burst/
