@@ -30,7 +30,11 @@
         <div class="navbar-start">
           <div class="dropdown">
             <label tabindex="0" class="btn btn-ghost lg:hidden">
-              <i class="fa-solid fa-bars h-16 w-16 text-black"></i>
+              <div class="flex gap-10 pt-5">
+                <div>
+                  <i class="fa-solid fa-bars h-16 w-16 text-black"></i>
+                </div>
+              </div>
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 class="h-5 w-5"
@@ -56,6 +60,12 @@
               <li><a href="#">All Fruits</a></li>
             </ul>
           </div>
+          <div class="flex lg:hidden">
+            <div>
+              <img class="w-8 h-8" src="./images/logo.png" alt="" />
+            </div>
+            <h2 class="text-black font-bold pt-2 pl-3">Fruit Brust</h2>
+          </div>
           <div class="navbar-center hidden lg:flex">
             <ul class="menu menu-horizontal px-1">
               <li><a href="#">Home</a></li>
@@ -71,7 +81,7 @@
           <a href="#"><h2 class="text-2xl font-bold">Fruit Brust</h2></a>
         </div>
         <div class="navbar-end">
-          <div class="form-control flex flex-row w-48">
+          <div class="form-control hidden lg:flex flex-row w-48">
             <div>
               <input
                 type="text"
@@ -819,7 +829,7 @@
           Latin literature from 45 BC, making it over 2000 years old.
         </p>
         <div class="grid grid-rows-3 lg:flex my-6">
-          <div class="p-4 m-3 rounded-lg row-start-2 lg:flex-1">
+          <div class="p-4 m-3 md:m-0 md:p-0 rounded-lg row-start-2 lg:flex-1">
             <div class="my-6">
               <div class="flex gap-2">
                 <img src="./images/1.png" alt="" />
@@ -867,7 +877,7 @@
               alt=""
             />
           </div>
-          <div class="p-4 m-3 rounded-lg row-start-3 lg:flex-1">
+          <div class="p-4 m-3 md:m-1 rounded-lg row-start-3 lg:flex-1">
             <div>
               <div class="flex gap-2 lg:flex-row-reverse">
                 <img src="./images/4.png" alt="" />
