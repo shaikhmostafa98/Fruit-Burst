@@ -23,11 +23,14 @@
     ></script>
   </head>
   <body>
-    <header class="mx-4">
-      <div class="navbar bg-[#f85458] text-white px-12 py-4 rounded-full">
+    <header class="lg:mx-1 lg:bg-white px-5 md:px-24 mx-4">
+      <div
+        class="navbar lg:bg-[#f85458] text-white lg:px-12 px-2 py-4 lg:rounded-full"
+      >
         <div class="navbar-start">
           <div class="dropdown">
             <label tabindex="0" class="btn btn-ghost lg:hidden">
+              <img src="./images/logo.png" alt="" class="h-8 w-8" />
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 class="h-5 w-5"
@@ -68,12 +71,12 @@
           <a href="#"><h2 class="text-2xl font-bold">Fruit Brust</h2></a>
         </div>
         <div class="navbar-end">
-          <div class="form-control flex flex-row">
+          <div class="form-control flex flex-row w-48">
             <div>
               <input
                 type="text"
-                placeholder="Search"
-                class="input input-bordered w-24 md:w-auto rounded-3xl"
+                placeholder="Search here"
+                class="input input-bordered w-24 w-auto rounded-3xl"
               />
             </div>
             <div class="absolute mt-4 ml-44 z-0 text-gray-400">
@@ -96,15 +99,15 @@
         </div>
       </div>
     </header>
-    <main>
+    <main class="mx-5">
       <!-- slider   -->
-      <div class="carousel mx-20 my-12">
-        <div id="slide1" class="carousel-item relative w-full">
-          <!--  -->
-          <div
-            class="bg-[url('/images/banner1.png')] w-full text-center py-40 text-white"
-          >
-            <h2 class="text-6xl">
+      <div class="carousel lg:mx-20 md:mx-12 mx-2 my-10">
+        <div
+          id="slide1"
+          class="carousel-item relative w-full bg-[url('/images/banner1.png')] bg-cover"
+        >
+          <div class="w-full text-center lg:py-16 md:pt-12 pt:8 text-white">
+            <h2 class="text-xl lg:text-6xl md:text-4xl">
               Exotic tastes at your <br />
               doorstep
             </h2>
@@ -113,7 +116,6 @@
               Shop Now
             </button>
           </div>
-          <!--  -->
           <div
             class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2"
           >
@@ -121,11 +123,12 @@
             <a href="#slide2" class="btn btn-circle">❯</a>
           </div>
         </div>
-        <div id="slide2" class="carousel-item relative w-full">
-          <div
-            class="bg-[url('/images/banner2.png')] w-full text-center py-40 text-white"
-          >
-            <h2 class="text-6xl">
+        <div
+          id="slide2"
+          class="carousel-item relative w-full bg-[url('/images/banner2.png')] bg-cover"
+        >
+          <div class="w-full text-center lg:py-16 md:pt-12 pt:8 text-white">
+            <h2 class="text-xl lg:text-6xl md:text-4xl">
               Exotic tastes at your <br />
               doorstep
             </h2>
@@ -141,11 +144,13 @@
             <a href="#slide3" class="btn btn-circle">❯</a>
           </div>
         </div>
-        <div id="slide3" class="carousel-item relative w-full">
-          <div
-            class="bg-[url('/images/banner3.png')] w-full text-center py-40 text-white"
-          >
-            <h2 class="text-6xl">
+
+        <div
+          id="slide3"
+          class="carousel-item relative w-full bg-[url('/images/banner3.png')] bg-cover"
+        >
+          <div class="w-full text-center lg:py-16 md:pt-12 pt:8 text-white">
+            <h2 class="text-xl lg:text-6xl md:text-4xl">
               Exotic tastes at your <br />
               doorstep
             </h2>
@@ -161,11 +166,12 @@
             <a href="#slide4" class="btn btn-circle">❯</a>
           </div>
         </div>
-        <div id="slide4" class="carousel-item relative w-full">
-          <div
-            class="bg-[url('/images/banner4.png')] w-full text-center py-40 text-white"
-          >
-            <h2 class="text-6xl">
+        <div
+          id="slide4"
+          class="carousel-item relative w-full bg-[url('/images/banner4.png')] bg-cover"
+        >
+          <div class="w-full text-center lg:py-16 md:pt-12 pt:8 text-white">
+            <h2 class="text-xl lg:text-6xl md:text-4xl">
               Exotic tastes at your <br />
               doorstep
             </h2>
@@ -183,36 +189,12 @@
         </div>
       </div>
       <!-- slider   -->
-      <!-- slider fruit card's  -->
-      <div
-        class="flex align-middle justify-center gap-12 bg-white relative mt-8 lg:mx-40 px-8 py-4 border rounded-md lg:-top-40"
-      >
-        <div>
-          <img src="./images/fruit1.png" alt="" />
-          <p class="text-center">Strawberry</p>
-        </div>
-        <div>
-          <img src="./images/fruit2.png" alt="" />
-          <p class="text-center">Orange</p>
-        </div>
-        <div>
-          <img src="./images/fruit3.png" alt="" />
-          <p class="text-center">Mango</p>
-        </div>
-        <div>
-          <img src="./images/fruit4.png" alt="" />
-          <p class="text-center">Strawberry</p>
-        </div>
-        <div>
-          <img src="./images/fruit5.png" alt="" />
-          <p class="text-center">Mango</p>
-        </div>
-      </div>
-      <!-- slider fruit card's  -->
       <section>
         <!-- Deal Section  -->
-        <div class="flex justify-around lg:flex-row md:flex-col">
-          <div>
+        <div
+          class="flex lg:my-20 lg:mx-20 lg:justify-around md:justify-center lg:flex-row md:flex-col flex-col"
+        >
+          <div class="md:text-center lg:text-left text-center">
             <h2 class="text-4xl font-semibold mb-6">Deal of the Day</h2>
             <p>
               Contrary to popular belief, is not simply random text. It has
@@ -221,7 +203,9 @@
             </p>
           </div>
           <div>
-            <div class="grid grid-flow-col gap-5 text-center auto-cols-max">
+            <div
+              class="grid grid-flow-col lg:gap-5 text-center mx-44 md:py-6 lg:mx-1 my-5"
+            >
               <div class="flex flex-col">
                 <span class="countdown font-mono text-5xl">
                   <span style="--value: 29"></span>
@@ -682,10 +666,8 @@
         </div>
         <!-- Deal Section  -->
       </section>
-      <!-- Team Section -->
-
       <section
-        class="bg-[url('/images/banner1.png')] text-center py-20 mx-20 text-white rounded-lg my-20"
+        class="bg-[url('/images/banner1.png')] bg-cover text-center pt-5 mx-20 text-white rounded-lg my-20"
       >
         <h2 class="text-4xl font-bold">Meet the team section</h2>
         <p class="py-5">
@@ -693,48 +675,105 @@
           a piece of classical <br />Latin literature from 45 BC, making it over
           2000 years old.
         </p>
-        <div class="flex align-middle justify-center gap-16 lg:pt-8">
+        <div
+          class="grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 p-5 mx-20 my-10 gap-4"
+        >
           <!-- Member-1 -->
-          <div>
-            <img class="pl-6" src="./images/member1.png" alt="" />
-            <h4 class="font-bold text-2xl p-2">Awlad Hossain</h4>
-            <p>Fruits Expert</p>
-            <i class="fa-brands fa-facebook bg-red-500 p-2 rounded-full"></i>
-            <i class="fa-brands fa-twitter bg-red-500 p-2 rounded-full"></i>
-            <i class="fa-brands fa-linkedin bg-red-500 p-2 rounded-full"></i>
+          <div class="card">
+            <figure class="px-10">
+              <img src="/images/member1.png" alt="" class="" />
+            </figure>
+            <div class="card-body items-center text-center">
+              <h2 class="card-title">Awlad Hossain</h2>
+              <p>Fruits Expert</p>
+              <div class="card-actions">
+                <div class="flex flex-row gap-2">
+                  <i
+                    class="fa-brands fa-facebook bg-red-500 p-2 rounded-full"
+                  ></i>
+                  <i
+                    class="fa-brands fa-twitter bg-red-500 p-2 rounded-full"
+                  ></i>
+                  <i
+                    class="fa-brands fa-linkedin bg-red-500 p-2 rounded-full"
+                  ></i>
+                </div>
+              </div>
+            </div>
           </div>
           <!-- Member-2 -->
-          <div>
-            <img class="pl-6" src="./images/member2.png" alt="" />
-            <h4 class="font-bold text-2xl p-2">Safia Chowdhury</h4>
-            <p>Fruits Expert</p>
-            <i class="fa-brands fa-facebook bg-red-500 p-2 rounded-full"></i>
-            <i class="fa-brands fa-twitter bg-red-500 p-2 rounded-full"></i>
-            <i class="fa-brands fa-linkedin bg-red-500 p-2 rounded-full"></i>
+          <div class="card">
+            <figure class="px-10">
+              <img src="/images/member2.png" alt="" class="" />
+            </figure>
+            <div class="card-body items-center text-center">
+              <h2 class="card-title">Safia Akter</h2>
+              <p>Fruits Expert</p>
+              <div class="card-actions">
+                <div class="flex flex-row gap-2">
+                  <i
+                    class="fa-brands fa-facebook bg-red-500 p-2 rounded-full"
+                  ></i>
+                  <i
+                    class="fa-brands fa-twitter bg-red-500 p-2 rounded-full"
+                  ></i>
+                  <i
+                    class="fa-brands fa-linkedin bg-red-500 p-2 rounded-full"
+                  ></i>
+                </div>
+              </div>
+            </div>
           </div>
           <!-- Member-3 -->
-          <div>
-            <img class="pl-6" src="./images/member3.png" alt="" />
-            <h4 class="font-bold text-2xl p-2">Rokib Hossain</h4>
-            <p>Fruits Expert</p>
-            <i class="fa-brands fa-facebook bg-red-500 p-2 rounded-full"></i>
-            <i class="fa-brands fa-twitter bg-red-500 p-2 rounded-full"></i>
-            <i class="fa-brands fa-linkedin bg-red-500 p-2 rounded-full"></i>
+          <div class="card">
+            <figure class="px-10">
+              <img src="/images/member3.png" alt="" class="" />
+            </figure>
+            <div class="card-body items-center text-center">
+              <h2 class="card-title">Rokib Hossain</h2>
+              <p>Fruits Expert</p>
+              <div class="card-actions">
+                <div class="flex flex-row gap-2">
+                  <i
+                    class="fa-brands fa-facebook bg-red-500 p-2 rounded-full"
+                  ></i>
+                  <i
+                    class="fa-brands fa-twitter bg-red-500 p-2 rounded-full"
+                  ></i>
+                  <i
+                    class="fa-brands fa-linkedin bg-red-500 p-2 rounded-full"
+                  ></i>
+                </div>
+              </div>
+            </div>
           </div>
           <!-- Member-4 -->
-          <div>
-            <img class="pl-6" src="./images/member4.png" alt="" />
-            <h4 class="font-bold text-2xl p-2">Chaity</h4>
-            <p>Fruits Expert</p>
-            <i class="fa-brands fa-facebook bg-red-500 p-2 rounded-full"></i>
-            <i class="fa-brands fa-twitter bg-red-500 p-2 rounded-full"></i>
-            <i class="fa-brands fa-linkedin bg-red-500 p-2 rounded-full"></i>
+          <div class="card">
+            <figure class="px-10">
+              <img src="/images/member4.png" alt="" class="" />
+            </figure>
+            <div class="card-body items-center text-center">
+              <h2 class="card-title">Chaity</h2>
+              <p>Fruits Expert</p>
+              <div class="card-actions">
+                <div class="flex flex-row gap-2">
+                  <i
+                    class="fa-brands fa-facebook bg-red-500 p-2 rounded-full"
+                  ></i>
+                  <i
+                    class="fa-brands fa-twitter bg-red-500 p-2 rounded-full"
+                  ></i>
+                  <i
+                    class="fa-brands fa-linkedin bg-red-500 p-2 rounded-full"
+                  ></i>
+                </div>
+              </div>
+            </div>
           </div>
+          <!--          -->
         </div>
       </section>
-
-      <!-- Team Section -->
-      <!-- Choose Section -->
+      <!-- Choose Option -->
       <div class="text-center py-4">
         <h2 class="text-4xl font-bold">Why Choose Us</h2>
         <p class="py-3">
@@ -825,7 +864,9 @@
         <img class="w-8" src="./images/logo.png" alt="" />
         <h2 class="text-2xl font-bold">Fruit Brust</h2>
       </div>
-      <nav class="grid grid-flow-col gap-4">
+      <nav
+        class="lg:grid lg:grid-flow-col lg:gap-4 flex flex-wrap gap-5 justify-center"
+      >
         <a class="link link-hover">Home</a>
         <a class="link link-hover">About us</a>
         <a class="link link-hover">Shop</a>
