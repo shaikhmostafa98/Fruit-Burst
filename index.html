@@ -227,7 +227,7 @@
       <section>
         <!-- Deal Section  -->
         <div
-          class="flex lg:my-20 lg:mx-20 lg:justify-around md:justify-center lg:flex-row md:flex-col flex-col"
+          class="flex lg:mb-20 lg:mx-20 lg:justify-around md:justify-center lg:flex-row md:flex-col flex-col"
         >
           <div class="md:text-center lg:text-left text-center">
             <h2 class="text-4xl font-semibold mb-6">Deal of the Day</h2>
@@ -239,7 +239,7 @@
           </div>
           <div>
             <div
-              class="grid grid-flow-col lg:gap-5 text-center mx-44 md:py-6 lg:mx-1 my-5"
+              class="grid grid-flow-col gap-3 lg:gap-5 justify-center lg:mx-1 my-5"
             >
               <div class="flex flex-col">
                 <span class="countdown font-mono text-5xl">
@@ -273,7 +273,7 @@
         </div>
         <!-- Fruit's Card -->
         <div
-          class="grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 p-5 mx-20 my-10 gap-4"
+          class="grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 p-5 lg:mx-20 md:mx-5 mx-2 my-10 gap-4"
         >
           <!-- Card-1 -->
           <div class="card bg-base-100 shadow-xl border border-gray-100">
@@ -702,7 +702,7 @@
         <!-- Deal Section  -->
       </section>
       <section
-        class="bg-[url('/images/banner1.png')] bg-cover text-center mx-20 text-white my-20"
+        class="bg-[url('/images/banner1.png')] bg-cover text-center lg:mx-20 text-white my-20"
       >
         <div class="backdrop-brightness-50 pt-20 pb-10">
           <h2 class="text-4xl font-bold">Meet the team section</h2>
@@ -716,7 +716,7 @@
           >
             <!-- Member-1 -->
             <div class="card">
-              <figure class="px-10">
+              <figure class="lg:px-10 md:px-5 px-1">
                 <img src="/images/member1.png" alt="" class="" />
               </figure>
               <div class="card-body items-center text-center">
@@ -739,7 +739,7 @@
             </div>
             <!-- Member-2 -->
             <div class="card">
-              <figure class="px-10">
+              <figure class="lg:px-10 md:px-5 px-1">
                 <img src="/images/member2.png" alt="" class="" />
               </figure>
               <div class="card-body items-center text-center">
@@ -762,7 +762,7 @@
             </div>
             <!-- Member-3 -->
             <div class="card">
-              <figure class="px-10">
+              <figure class="lg:px-10 md:px-5 px-1">
                 <img src="/images/member3.png" alt="" class="" />
               </figure>
               <div class="card-body items-center text-center">
@@ -785,7 +785,7 @@
             </div>
             <!-- Member-4 -->
             <div class="card">
-              <figure class="px-10">
+              <figure class="lg:px-10 md:px-5 px-1">
                 <img src="/images/member4.png" alt="" class="" />
               </figure>
               <div class="card-body items-center text-center">
@@ -818,15 +818,17 @@
           a piece of classical <br />
           Latin literature from 45 BC, making it over 2000 years old.
         </p>
-        <div class="grid grid-rows-3 lg:flex my-16">
+        <div class="grid grid-rows-3 lg:flex my-6">
           <div class="p-4 m-3 rounded-lg row-start-2 lg:flex-1">
-            <div>
-              <div class="lg:flex lg:gap-2">
+            <div class="my-6">
+              <div class="flex gap-2">
                 <img src="./images/1.png" alt="" />
                 <h3 class="text-2xl font-bold">Dedicated Team</h3>
               </div>
-              <hr class="w-24 ml-20 -mt-5 border border-black" />
-              <p class="pl-16 mt-2">
+              <hr
+                class="w-24 ml-20 -mt-5 border border-black lg:block hidden"
+              />
+              <p class="pl-12 mt-2">
                 Professional employees are there for you to pick the most
                 amazing and fresh fruits.
               </p>
@@ -836,8 +838,10 @@
                 <img src="./images/2.png" alt="" />
                 <h3 class="text-2xl font-bold">Fresh is Best</h3>
               </div>
-              <hr class="w-24 ml-20 -mt-5 border border-black" />
-              <p class="pl-16 mt-2">
+              <hr
+                class="w-24 ml-20 -mt-5 border border-black lg:block hidden"
+              />
+              <p class="pl-12 mt-2">
                 Professional employees are there for you to pick the most
                 amazing and fresh fruits.
               </p>
@@ -847,46 +851,58 @@
                 <img src="./images/3.png" alt="" />
                 <h3 class="text-2xl font-bold">Gift Certificates</h3>
               </div>
-              <hr class="w-24 ml-20 -mt-5 border border-black" />
-              <p class="pl-16 mt-2">
+              <hr
+                class="w-24 ml-20 -mt-5 border border-black lg:block hidden"
+              />
+              <p class="pl-12 mt-2">
                 Professional employees are there for you to pick the most
                 amazing and fresh fruits.
               </p>
             </div>
           </div>
-          <div class="p-4 m-3 rounded-lg row-start-1 lg:flex-1">
-            <img class="lg:px-1 px-12" src="./images/whychoose1.png" alt="" />
+          <div class="p-4 m-3 rounded-lg row-start-1 w-full lg:flex-1">
+            <img
+              class="lg:px-1 md:w-full"
+              src="./images/whychoose1.png"
+              alt=""
+            />
           </div>
           <div class="p-4 m-3 rounded-lg row-start-3 lg:flex-1">
             <div>
-              <div class="flex gap-2 flex-row-reverse">
+              <div class="flex gap-2 lg:flex-row-reverse">
                 <img src="./images/4.png" alt="" />
                 <h3 class="text-2xl font-bold">Integrated Supplier</h3>
               </div>
-              <hr class="w-24 ml-48 -mt-5 border border-black" />
-              <p class="pr-16 mt-2">
+              <hr
+                class="w-24 ml-48 -mt-5 border border-black lg:block hidden"
+              />
+              <p class="pr-12 mt-2">
                 Professional employees are there for you to pick the most
                 amazing and fresh fruits.
               </p>
             </div>
             <div class="my-6">
-              <div class="flex gap-2 flex-row-reverse">
+              <div class="flex gap-2 lg:flex-row-reverse">
                 <img src="./images/5.png" alt="" />
                 <h3 class="text-2xl font-bold">Sustainable Practice</h3>
               </div>
-              <hr class="w-24 ml-48 -mt-5 border border-black" />
-              <p class="pr-16 mt-2">
+              <hr
+                class="w-24 ml-48 -mt-5 border border-black lg:block hidden"
+              />
+              <p class="pr-12 mt-2">
                 Professional employees are there for you to pick the most
                 amazing and fresh fruits.
               </p>
             </div>
             <div>
-              <div class="flex gap-2 flex-row-reverse">
+              <div class="flex gap-2 lg:flex-row-reverse">
                 <img src="./images/6.png" alt="" />
                 <h3 class="text-2xl font-bold">The Benefits Only</h3>
               </div>
-              <hr class="w-24 ml-48 -mt-5 border border-black" />
-              <p class="pr-16 mt-2">
+              <hr
+                class="w-24 ml-48 -mt-5 border border-black lg:block hidden"
+              />
+              <p class="pr-12 mt-2">
                 Professional employees are there for you to pick the most
                 amazing and fresh fruits.
               </p>
